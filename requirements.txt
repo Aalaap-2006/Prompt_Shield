@@ -1,0 +1,11 @@
+# NOTE: do NOT install the PyPI package called "fitz" - it conflicts with PyMuPDF.
+# PyMuPDF provides the `fitz` module itself. pypdf is optional (only a fallback), so it is omitted.
+pymupdf>=1.24.3
+sentence-transformers>=3.0
+numpy>=1.26
+requests>=2.31
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+streamlit>=1.35
+pytest>=8.0
